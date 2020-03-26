@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		BF7454DD242D367200B96B0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7454DC242D367200B96B0D /* AppDelegate.swift */; };
 		BF7454DF242D367300B96B0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7454DE242D367200B96B0D /* SceneDelegate.swift */; };
-		BF7454E1242D367300B96B0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7454E0242D367300B96B0D /* ContentView.swift */; };
 		BF7454E3242D367400B96B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7454E2242D367400B96B0D /* Assets.xcassets */; };
 		BF7454E6242D367400B96B0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7454E5242D367400B96B0D /* Preview Assets.xcassets */; };
 		BF7454E9242D367400B96B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7454E7242D367400B96B0D /* LaunchScreen.storyboard */; };
+		BF7454F2242D368700B96B0D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7454F0242D368700B96B0D /* MainView.swift */; };
+		BF7454F3242D368700B96B0D /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7454F1242D368700B96B0D /* HelloView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF7454D9242D367200B96B0D /* SwiftUISheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7454DC242D367200B96B0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF7454DE242D367200B96B0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF7454E0242D367300B96B0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF7454E2242D367400B96B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF7454E5242D367400B96B0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF7454E8242D367400B96B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF7454EA242D367400B96B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7454F0242D368700B96B0D /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BF7454F1242D368700B96B0D /* HelloView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				BF7454DC242D367200B96B0D /* AppDelegate.swift */,
 				BF7454DE242D367200B96B0D /* SceneDelegate.swift */,
-				BF7454E0242D367300B96B0D /* ContentView.swift */,
+				BF7454F0242D368700B96B0D /* MainView.swift */,
+				BF7454F1242D368700B96B0D /* HelloView.swift */,
 				BF7454E2242D367400B96B0D /* Assets.xcassets */,
 				BF7454E7242D367400B96B0D /* LaunchScreen.storyboard */,
 				BF7454EA242D367400B96B0D /* Info.plist */,
@@ -147,8 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF7454DD242D367200B96B0D /* AppDelegate.swift in Sources */,
+				BF7454F2242D368700B96B0D /* MainView.swift in Sources */,
 				BF7454DF242D367300B96B0D /* SceneDelegate.swift in Sources */,
-				BF7454E1242D367300B96B0D /* ContentView.swift in Sources */,
+				BF7454F3242D368700B96B0D /* HelloView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
